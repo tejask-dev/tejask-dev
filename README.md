@@ -9,8 +9,8 @@ I love turning ambitious ideas into real-world products.
 ---
 
 ### 💡 What I’m Working On  
-- 🧠 **AI Agent Systems** — building intelligent tools using LLMs + automation  
-- 🌍 **VolunTrack** — FlutterFlow app connecting volunteers and organizations  
+- 🤖 **Soma AI** — developing intelligent AI agent systems for real-world problem-solving  
+- 🧠 **AI Agent Projects** — exploring LLM-based automation and contextual reasoning  
 - 📚 **Stellar Learning (CTO)** — EdTech platform with 10,000+ signups & 5,000+ active users  
 - 🎓 **Top Score Tutoring (Founder)** — empowering students through affordable tutoring  
 
