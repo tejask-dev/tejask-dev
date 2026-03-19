@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Tejas%20Kaushik&fontSize=65&fontColor=fff&animation=twinkling&fontAlignY=38&desc=Builder.%20Founder.%20AI%20Engineer.&descAlignY=58&descAlign=50" width="100%"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=6E40C9&center=true&vCenter=true&width=700&lines=CTO+%40+Stellar+Learning+%F0%9F%9A%80;Founder+%40+Top+Score+Tutoring+%F0%9F%8E%93;AI+Agent+%26+LLM+Engineer+%F0%9F%A4%96;National+Award+Winner+%F0%9F%8F%86;Harvard+%E2%80%A2+Waterloo+%E2%80%A2+MIT+%F0%9F%8E%93)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=6E40C9&center=true&vCenter=true&width=700&lines=CTO+%40+Stellar+Learning;Founder+%40+Top+Score+Tutoring;AI+Agent+%26+LLM+Engineer;National+Award+Winner;Harvard+%C2%B7+Waterloo+%C2%B7+MIT)](https://git.io/typing-svg)
 
 <br/>
 
@@ -18,47 +18,41 @@
 
 ---
 
-## ⚡ About Me
+## About Me
 
-```text
-🏗️  Building at the intersection of AI and real-world impact
-🎓  High school founder scaling startups while still in school
-🤖  Architecting LLM agents, RAG systems & autonomous workflows
-🏆  National Award Winner | Harvard · Waterloo · MIT
-🌍  Windsor, Ontario — thinking global, shipping fast
-```
+High school founder and engineer building at the intersection of AI and real-world impact. Currently serving as CTO of an EdTech platform with 10,000+ signups while architecting LLM agent systems and autonomous workflows from the ground up.
+
+National award winner. Recognized by Harvard, Waterloo, and MIT. Based in Windsor, Ontario — building with a global mindset.
 
 > *"The best way to predict the future is to build it."* — Alan Kay
 
 ---
 
-## 🚀 What I'm Building
+## What I'm Building
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🤖 Soma AI
-Intelligent AI agent systems for real-world problem-solving. Building autonomous workflows powered by LLMs, RAG pipelines, and contextual reasoning engines.
+### Soma AI
+Intelligent AI agent systems for real-world problem-solving. Designing autonomous workflows powered by LLMs, RAG pipelines, and contextual reasoning engines.
 
 **Stack:** `Python` · `LangChain` · `OpenAI` · `Supabase`
 
 </td>
 <td width="50%" valign="top">
 
-### 📚 Stellar Learning *(CTO)*
-EdTech platform transforming how students learn.
+### Stellar Learning — CTO
+EdTech platform transforming how students learn. Scaled from zero to 10,000+ signups and 5,000+ active users.
 
-**10,000+ signups · 5,000+ active users**
-
-**Stack:** `React` · `Next.js` · `Firebase` · `Tailwind`
+**Stack:** `React` · `Next.js` · `Firebase` · `Tailwind CSS`
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 🎓 Top Score Tutoring *(Founder)*
+### Top Score Tutoring — Founder
 Making quality education accessible and affordable for every student who needs it.
 
 **Stack:** `FlutterFlow` · `Node.js` · `Firebase`
@@ -66,8 +60,8 @@ Making quality education accessible and affordable for every student who needs i
 </td>
 <td width="50%" valign="top">
 
-### 🧠 AI Agent Research
-Exploring cutting-edge LLM automation, contextual memory systems, and multi-agent orchestration frameworks.
+### AI Agent Research
+Exploring LLM automation, contextual memory systems, and multi-agent orchestration. Focused on building systems that reason, not just respond.
 
 **Stack:** `LangChain` · `Hugging Face` · `Python`
 
@@ -77,7 +71,7 @@ Exploring cutting-edge LLM automation, contextual memory systems, and multi-agen
 
 ---
 
-## 🛠️ Tech Arsenal
+## Tech Stack
 
 <div align="center">
 
@@ -109,24 +103,24 @@ Exploring cutting-edge LLM automation, contextual memory systems, and multi-agen
 
 ---
 
-## 🏆 Awards & Recognition
+## Awards & Recognition
 
 <div align="center">
 
-| 🥇 Achievement | 🏛️ Organization | 📌 Details |
+| Achievement | Organization | Details |
 |:---|:---|:---|
-| **National Winner** | Youreka 3MT Challenge | Top researcher & presenter nationally |
+| **National Winner** | Youreka 3MT Challenge | Top researcher and presenter nationally |
 | **National Winner** | Youreka National Symposium | Competed against Canada's best |
 | **Harvard Ventures TECH** | Harvard University | Selected for elite entrepreneurship program |
-| **Waterloo Catalyst** | University of Waterloo | Recognized emerging tech founder |
+| **Waterloo Catalyst** | University of Waterloo | Recognized as an emerging tech founder |
 | **MIT STEM Program** | Massachusetts Institute of Technology | Advanced STEM research participant |
-| **CTO @ 17** | Stellar Learning | Scaled EdTech platform to 5,000+ active users |
+| **CTO at 17** | Stellar Learning | Scaled EdTech platform to 5,000+ active users |
 
 </div>
 
 ---
 
-## 📊 GitHub Analytics
+## GitHub Analytics
 
 <div align="center">
 
@@ -149,7 +143,7 @@ Exploring cutting-edge LLM automation, contextual memory systems, and multi-agen
 
 ---
 
-## 🐍 Contribution Snake
+## Contribution Graph
 
 <div align="center">
 <picture>
@@ -161,12 +155,12 @@ Exploring cutting-edge LLM automation, contextual memory systems, and multi-agen
 
 ---
 
-## 🤝 Leadership & Community
+## Leadership & Community
 
-- **Vice President** — Target Alpha Windsor-Essex *(advancing financial literacy across the region)*
-- **Founder** — Coding Club *(empowering the next generation of builders)*
-- **Founder** — Science Olympiad Club *(fostering STEM curiosity in students)*
-- **Mentor** — Guiding students through competitive coding & entrepreneurship journeys
+- **Vice President** — Target Alpha Windsor-Essex, advancing financial literacy across the region
+- **Founder** — Coding Club, empowering the next generation of builders
+- **Founder** — Science Olympiad Club, fostering STEM engagement in students
+- **Mentor** — Guiding students through competitive programming and entrepreneurship
 
 ---
 
@@ -174,10 +168,8 @@ Exploring cutting-edge LLM automation, contextual memory systems, and multi-agen
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=130&section=footer&animation=twinkling" width="100%"/>
 
-**Let's build something that matters.** 🚀
+**Let's build something that matters.**
 
-[![Let's Connect](https://img.shields.io/badge/Let's%20Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tejasskaushik/)
-
-*"Building tomorrow, today — one commit at a time."*
+[![Connect on LinkedIn](https://img.shields.io/badge/Connect%20on%20LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tejasskaushik/)
 
 </div>
