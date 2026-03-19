@@ -143,16 +143,6 @@ Exploring LLM automation, contextual memory systems, and multi-agent orchestrati
 
 ---
 
-## GitHub Trophies
-
-<div align="center">
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=tejask-dev&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=7)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
-
----
-
 ## Leadership & Community
 
 - **Vice President** — Target Alpha Windsor-Essex, advancing financial literacy across the region
