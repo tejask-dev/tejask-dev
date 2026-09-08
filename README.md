@@ -1,163 +1,83 @@
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/profile/hero-light.svg">
+  <img src="assets/profile/hero-light.svg" alt="" width="100%">
+</picture>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Tejas%20Kaushik&fontSize=65&fontColor=fff&animation=twinkling&fontAlignY=38&desc=Builder.%20Founder.%20AI%20Engineer.&descAlignY=58&descAlign=50" width="100%"/>
+# Tejas Kaushik
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=6E40C9&center=true&vCenter=true&width=700&lines=CTO+%40+Stellar+Learning;Founder+%40+Top+Score+Tutoring;AI+Agent+%26+LLM+Engineer;National+Award+Winner;Harvard+%C2%B7+Waterloo+%C2%B7+MIT)](https://git.io/typing-svg)
+I build web and mobile products, with a focus on learning tools, AI applications, and the systems behind them.
 
-<br/>
+**Founding Software Engineer at Anticipation Labs.** Computer Science at Western University with Ivey Advanced Entry Opportunity (AEO), intending to pursue the Computer Science/Ivey HBA dual-degree pathway.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tejasskaushik/)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/tejas_kaushik007/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tejask-dev)
+[Portfolio](https://tejass-kaushik.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/tejasskaushik/) · [GitHub](https://github.com/tejask-dev) · [Email](mailto:tejs.kaushik@outlook.com)
 
-<br/>
+## Current work
 
-![Profile Views](https://komarev.com/ghpvc/?username=tejask-dev&color=6E40C9&style=for-the-badge&label=PROFILE+VIEWS)
+**Anticipation Labs · 2026–present**
 
-</div>
+Anticipation Labs is building [Anticipy](https://www.anticipy.ai/), an AI pendant designed to turn spoken intentions into actions with the wearer's approval.
 
----
+I built and shipped the **Anticipy Fellowship website and application experience**, shaping the candidate journey across Software, Hardware, and Growth/Marketing tracks. My work covered the application flows and deployment to **Cloudflare Workers**, with automatic deployment from Git. I also contribute to recruiting infrastructure and early-stage operations.
 
-## About Me
+## Selected work
 
-High school founder and engineer building at the intersection of AI and real-world impact. Currently serving as CTO of an EdTech platform with 10,000+ signups while architecting LLM agent systems and autonomous workflows from the ground up.
+### ACS Can Drive
 
-National award winner. Recognized by Harvard, Waterloo, and MIT. Based in Windsor, Ontario — building with a global mindset.
+A full-stack platform for a school-wide food drive. I built tools for donation leaderboards, roster imports, class-buyout tracking, and street reservations so organizers could coordinate collection in one place. The platform supported a campaign that collected **27,000+ cans**. A React and TypeScript frontend connects to a FastAPI backend for campaign records, imports, and reporting.
 
-> *"The best way to predict the future is to build it."* — Alan Kay
+[ACS Can Drive repository](https://github.com/tejask-dev/ACS_CanDrive-WebApp)
 
----
+### ModelMind
 
-## What I'm Building
+An AI-assisted spreadsheet analysis prototype built during my DocuBridge internship. I developed natural-language questions over Excel and CSV data, alongside structured analysis, charts, and summaries. The implementation pairs a React interface with Flask and Pandas, connecting file processing and LLM APIs in a single analysis workflow.
 
-<table>
-<tr>
-<td width="50%" valign="top">
+[DocuBridge internship repository](https://github.com/tejask-dev/Docubridge-Intership)
 
-### Soma AI
-Intelligent AI agent systems for real-world problem-solving. Designing autonomous workflows powered by LLMs, RAG pipelines, and contextual reasoning engines.
+### MoleculeAI
 
-**Stack:** `Python` · `LangChain` · `OpenAI` · `Supabase`
+An organic chemistry application for moving between molecule drawings, names, and interactive structures. I built drawing and name-to-structure workflows, functional-group detection, and 3D visualization. The chemistry layer uses **RDKit** for structure analysis and **PubChem** for compound lookup, with a React interface for exploring the results.
 
-</td>
-<td width="50%" valign="top">
+[MoleculeAI repository](https://github.com/tejask-dev/OrganicChem-WebApp) · [MoleculeAI interface](https://organic-chem-web-app.vercel.app/)
 
-### Stellar Learning — CTO
-EdTech platform transforming how students learn. Scaled from zero to 10,000+ signups and 5,000+ active users.
+### PromMatch
 
-**Stack:** `React` · `Next.js` · `Firebase` · `Tailwind CSS`
+An AI-assisted student matchmaking platform. I developed profile and questionnaire flows with ranked recommendations and mutual matches. Its matching system combines weighted questionnaire compatibility with optional semantic similarity from embeddings, using **PostgreSQL and pgvector** alongside a FastAPI backend. This gives the matching process both structured preferences and a way to compare free-text responses.
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+[PromMatch repository](https://github.com/tejask-dev/PromMatch)
 
-### Top Score Tutoring — Founder
-Making quality education accessible and affordable for every student who needs it.
+## Previous experience
 
-**Stack:** `FlutterFlow` · `Node.js` · `Firebase`
+### Stellar Learning
 
-</td>
-<td width="50%" valign="top">
+**Former Chief Technology Officer, previously Deputy CTO · August 2025–July 2026**
 
-### AI Agent Research
-Exploring LLM automation, contextual memory systems, and multi-agent orchestration. Focused on building systems that reason, not just respond.
+[Stellar](https://stellarlearning.app/) is a free learning and exam-preparation platform reporting **40,000+ learners**. I contributed to platform architecture and product development across web, mobile, and AI-enabled learning, including practice systems and the Nova AI tutoring experience.
 
-**Stack:** `LangChain` · `Hugging Face` · `Python`
+My web work involved React, Next.js, Firebase, and Redis. On mobile, I worked with Flutter, Riverpod, GoRouter, Dio, and streaming interfaces. I also coordinated technical work within a distributed volunteer organization.
 
-</td>
-</tr>
-</table>
+### Alti AI
 
----
+**Software Engineering / AI Product Intern · October 2025–April 2026**
 
-## Tech Stack
+Worked on Alti Assistant and Alti Agent, with safety and guardrail work on Alti Guard.
 
-<div align="center">
+### DocuBridge
 
-### Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+**Software Engineering / AI Development Intern · July–August 2025**
 
-### Frontend & Frameworks
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Framer Motion](https://img.shields.io/badge/Framer_Motion-black?style=for-the-badge&logo=framer&logoColor=blue)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+Developed [ModelMind](#modelmind), the spreadsheet analysis prototype featured above.
 
-### AI & Backend
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+## Technical capabilities
 
-</div>
+- **Product engineering:** React and TypeScript interfaces, Python APIs with FastAPI and Flask, and Flutter mobile applications.
+- **AI and data:** LLM integrations, embedding-based matching, spreadsheet processing with Pandas, and chemistry tooling with RDKit.
+- **Infrastructure:** Cloudflare Workers deployment, Git-based delivery, Firebase, Redis, and relational data with PostgreSQL.
 
----
+## Beyond the code
 
-## Awards & Recognition
+I founded a web and software venture through Ontario's Summer Company program, delivering client projects from scoping through development and deployment. That work put client conversations and delivery responsibilities alongside the engineering.
 
-<div align="center">
+## Get in touch
 
-| Achievement | Organization | Details |
-|:---|:---|:---|
-| **National Winner** | Youreka 3MT Challenge | Top researcher and presenter nationally |
-| **National Winner** | Youreka National Symposium | Competed against Canada's best |
-| **Harvard Ventures TECH** | Harvard University | Selected for elite entrepreneurship program |
-| **Waterloo Catalyst** | University of Waterloo | Recognized as an emerging tech founder |
-| **MIT STEM Program** | Massachusetts Institute of Technology | Advanced STEM research participant |
-| **CTO at 17** | Stellar Learning | Scaled EdTech platform to 5,000+ active users |
-
-</div>
-
----
-
-## GitHub Analytics
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=tejask-dev&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tejask-dev&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117"/>
-
-</div>
-
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com/?user=tejask-dev&theme=tokyonight&hide_border=true&background=0d1117)](https://git.io/streak-stats)
-
-</div>
-
-<div align="center">
-
-[![Tejas's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=tejask-dev&theme=tokyo-night&hide_border=true&bg_color=0d1117)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
-</div>
-
----
-
-## Leadership & Community
-
-- **Vice President** — Target Alpha Windsor-Essex, advancing financial literacy across the region
-- **Founder** — Coding Club, empowering the next generation of builders
-- **Founder** — Science Olympiad Club, fostering STEM engagement in students
-- **Mentor** — Guiding students through competitive programming and entrepreneurship
-
----
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=130&section=footer&animation=twinkling" width="100%"/>
-
-**Let's build something that matters.**
-
-[![Connect on LinkedIn](https://img.shields.io/badge/Connect%20on%20LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tejasskaushik/)
-
-</div>
+For engineering opportunities, technical collaborations, or a conversation about something you're building, reach me at [tejs.kaushik@outlook.com](mailto:tejs.kaushik@outlook.com) or connect on [LinkedIn](https://www.linkedin.com/in/tejasskaushik/).

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" fill="none">
+  <rect width="1200" height="220" rx="12" fill="#F3F6F8"/>
+  <path d="M32 32H1168M32 188H1168" stroke="#D8E1E7"/>
+  <path d="M160 24V40M920 24V40M160 180V196M920 180V196" stroke="#98AAB7"/>
+  <path d="M42 80V62H60M124 62H142V80M42 140V158H60M124 158H142V140" stroke="#A6B9C7"/>
+  <path d="M62 79H121M88 79V143M122 91L88 117L123 143" stroke="#315F82" stroke-width="8" stroke-linecap="square" stroke-linejoin="miter"/>
+  <text x="180" y="128" fill="#1A2C39" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="52" font-weight="500" letter-spacing="-1.8">Software, from idea to use.</text>
+  <path d="M970 68H1053V151H1136" stroke="#A6B9C7"/>
+  <path d="M970 151H1053V68H1136" stroke="#A6B9C7"/>
+  <path d="M1000 110H1106" stroke="#6688A1" stroke-width="2"/>
+  <path d="M1098 102L1106 110L1098 118" stroke="#315F82" stroke-width="2"/>
+  <rect x="958" y="56" width="24" height="24" fill="#F3F6F8" stroke="#6688A1"/>
+  <rect x="958" y="139" width="24" height="24" fill="#F3F6F8" stroke="#A6B9C7"/>
+  <rect x="1124" y="56" width="24" height="24" fill="#F3F6F8" stroke="#A6B9C7"/>
+  <rect x="1124" y="139" width="24" height="24" fill="#315F82"/>
+</svg>
