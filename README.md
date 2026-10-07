@@ -1,21 +1,25 @@
 <picture>
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/profile/hero-still-dark-mobile.svg">
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/profile/hero-still-light-mobile.svg">
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/profile/hero-still-dark.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/profile/hero-still-light.svg">
   <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/profile/hero-dark-mobile.svg">
   <source media="(max-width: 600px)" srcset="assets/profile/hero-light-mobile.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile/hero-dark.svg">
-  <img src="assets/profile/hero-light.svg" alt="Tejass Kaushik — software engineer. I build AI products across apps and devices." width="100%">
+  <img src="assets/profile/hero-light.svg" alt="Tejass Kaushik, software engineer. A blue branching diagram routes one signal to three nodes: Interfaces, Intelligence, and Systems." width="100%">
 </picture>
 
 # Hey, I'm Tejass Kaushik.
 
 **Software engineer. Product builder. Curious about how things work.**
 
-I'm a **Founding Software Engineer at Anticipation Labs**, building [Anticipy](https://anticipy.ai/), and the **former CTO of Stellar Learning**. I study **Computer Science at Western University** and hold **Ivey Advanced Entry Opportunity (AEO)** status.
+I'm a **Founding Software Engineer at Anticipation Labs**, building [Anticipy](https://www.anticipy.ai/), and the **former CTO of Stellar Learning**. I study **Computer Science at Western University** and hold **Ivey Advanced Entry Opportunity (AEO)** status.
 
 My work spans web and mobile applications, AI workflows, and the systems that connect them. I like taking a problem all the way through: understanding the person using it, building the software, and checking that the experience actually works.
 
-[**Portfolio ↗**](https://tejass-kaushik.vercel.app/) &nbsp; · &nbsp; [Resume ↗](https://tejass-kaushik.vercel.app/resume) &nbsp; · &nbsp; [LinkedIn ↗](https://www.linkedin.com/in/tejasskaushik/) &nbsp; · &nbsp; [Email ↗](mailto:tejas.kaushik@outlook.com)
+[**Explore Anticipy ↗**](https://www.anticipy.ai/) &nbsp; · &nbsp; [**Explore my portfolio ↗**](https://tejass-kaushik.vercel.app/) &nbsp; · &nbsp; [Resume ↗](https://tejass-kaushik.vercel.app/resume) &nbsp; · &nbsp; [LinkedIn ↗](https://www.linkedin.com/in/tejasskaushik/) &nbsp; · &nbsp; [Email ↗](mailto:tejas.kaushik@outlook.com)
 
-**Explore** &nbsp; [About](#about-me) / [Now](#now) / [Projects](#projects) / [The lab](#the-lab) / [Toolkit](#toolkit) / [Journey](#journey) / [Activity](#activity)
+**On this page** &nbsp; [About](#about-me) / [Now](#now) / [Projects](#projects) / [The lab](#the-lab) / [Toolkit](#toolkit) / [Journey](#journey) / [Activity](#activity)
 
 ---
 
@@ -30,9 +34,22 @@ I'm interested in the places where software meets something beyond a screen: lea
 
 ## Now
 
+<a href="https://www.anticipy.ai/">
+  <picture>
+    <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/profile/anticipy-still-dark-mobile.svg">
+    <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/profile/anticipy-still-light-mobile.svg">
+    <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/profile/anticipy-still-dark.svg">
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/profile/anticipy-still-light.svg">
+    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/profile/anticipy-dark-mobile.svg">
+    <source media="(max-width: 600px)" srcset="assets/profile/anticipy-light-mobile.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/profile/anticipy-dark.svg">
+    <img src="assets/profile/anticipy-light.svg" alt="Explore Anticipy: the AI wearable being built at Anticipation Labs to turn spoken intentions into actions, with the person's approval. Opens anticipy.ai." width="100%" loading="lazy">
+  </picture>
+</a>
+
 **Anticipation Labs · Founding Software Engineer · Aug 2026–present**
 
-[Anticipy](https://anticipy.ai/) is an AI wearable being built to turn spoken intentions into actions through connected software, with the person's approval. My work covers **connected-app reliability, private AI workflows, release verification, and hands-on phone and prototype wearable testing**.
+[Anticipy](https://www.anticipy.ai/) is an AI wearable being built to turn spoken intentions into actions through connected software, with the person's approval. My work covers **connected-app reliability, private AI workflows, release verification, and hands-on phone and prototype wearable testing**.
 
 I set requirements and repair priorities, direct AI-assisted implementation and review, and test the experience on real devices. One example: I prioritized a connection failure and required browser-tested release evidence. The deployed navigation correction reached provider sign-in in those checks.
 
@@ -48,11 +65,15 @@ This builds on the team's existing product, native apps, workflow systems, and h
 
 </details>
 
-[Read the engineering case study ↗](https://tejass-kaushik.vercel.app/case-studies/anticipy) · [Explore Anticipy ↗](https://anticipy.ai/)
+[Read the engineering case study ↗](https://tejass-kaushik.vercel.app/case-studies/anticipy) · [Explore Anticipy ↗](https://www.anticipy.ai/)
 
 ## Projects
 
 <picture>
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/profile/project-atlas-still-dark-mobile.svg">
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/profile/project-atlas-still-light-mobile.svg">
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/profile/project-atlas-still-dark.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/profile/project-atlas-still-light.svg">
   <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/profile/project-atlas-dark-mobile.svg">
   <source media="(max-width: 600px)" srcset="assets/profile/project-atlas-light-mobile.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile/project-atlas-dark.svg">
@@ -122,6 +143,19 @@ An AI-assisted student matchmaking platform. I developed profile and questionnai
 ## The lab
 
 ### Open Water · a portfolio you can explore
+
+<a href="https://tejass-kaushik.vercel.app/">
+  <picture>
+    <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/profile/open-water-still-dark-mobile.svg">
+    <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/profile/open-water-still-light-mobile.svg">
+    <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/profile/open-water-still-dark.svg">
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/profile/open-water-still-light.svg">
+    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/profile/open-water-dark-mobile.svg">
+    <source media="(max-width: 600px)" srcset="assets/profile/open-water-light-mobile.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/profile/open-water-dark.svg">
+    <img src="assets/profile/open-water-light.svg" alt="Explore Open Water, Tejass's interactive portfolio: an ocean, a yacht, and a scuba descent, with a straightforward reading view of projects and contact details. Opens the portfolio." width="100%" loading="lazy">
+  </picture>
+</a>
 
 An interactive ocean, a yacht, a scuba descent, and a straightforward reading experience underneath it all. It brings together my engineering work and my love of the water. The projects and contact information remain available without JavaScript or compatible graphics.
 

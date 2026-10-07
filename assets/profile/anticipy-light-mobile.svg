@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="540" viewBox="0 0 640 540" role="img" aria-labelledby="title desc">
+<title id="title">Anticipy — building at Anticipation Labs</title><desc id="desc">Spoken intentions, useful actions. An AI wearable being built with the person&#x27;s approval. Follow this card to explore Anticipy.</desc>
+<style>
+@keyframes travel { to { stroke-dashoffset: -100; } }
+@keyframes breathe { 0%,100% { opacity: .35; } 50% { opacity: .85; } }
+@keyframes voice { 0%,100% { transform: scaleY(.45); } 50% { transform: scaleY(1); } }
+@keyframes drift { 0%,100% { transform: translateX(0); } 50% { transform: translateX(-24px); } }
+@keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+@keyframes draw { 0%,15% { stroke-dashoffset: 100; } 65%,100% { stroke-dashoffset: 0; } }
+.signal { stroke-dasharray: 13 87; animation: travel 5s linear infinite; }
+.beacon { animation: breathe 5s ease-in-out infinite; }
+.wavebar { transform-box: fill-box; transform-origin: center; animation: voice 3.2s ease-in-out infinite; }
+.drift { animation: drift 12s ease-in-out infinite; }
+.float { animation: float 7s ease-in-out infinite; }
+.trace { stroke-dasharray: 100; animation: draw 9s ease-in-out infinite; }
+@media (prefers-reduced-motion: reduce) {
+  .signal,.beacon,.wavebar,.drift,.float,.trace { animation: none; }
+  .signal { stroke-dasharray: none; opacity: .55; }
+  .trace { stroke-dasharray: none; }
+}
+</style>
+<rect width="640" height="540" rx="18" fill="#eff6ff"/>
+<rect x=".5" y=".5" width="639" height="539" rx="18" fill="none" stroke="#c0d5f0"/>
+<text x="36" y="44" fill="#48658a" font-family="'SFMono-Regular',Consolas,monospace" font-size="18" font-weight="400" >BUILDING / ANTICIPATION LABS</text><text x="33" y="126" fill="#102c52" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="76" font-weight="650" letter-spacing="-3">Anticipy.</text><text x="36" y="174" fill="#235bce" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="26" font-weight="500" >Spoken intentions. Useful actions.</text><text x="36" y="211" fill="#48658a" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="23" font-weight="400" >An AI wearable, with your approval.</text><g transform="translate(118 263)"><circle class="beacon" cx="164" cy="100" r="87" fill="none" stroke="#c0d5f0"/><rect class="wavebar" x="0" y="89.0" width="4" height="22" rx="2" fill="#235bce" style="animation-delay:0.0s"/><rect class="wavebar" x="12" y="78.0" width="4" height="44" rx="2" fill="#235bce" style="animation-delay:-0.36s"/><rect class="wavebar" x="24" y="66.0" width="4" height="68" rx="2" fill="#235bce" style="animation-delay:-0.72s"/><rect class="wavebar" x="36" y="80.0" width="4" height="40" rx="2" fill="#235bce" style="animation-delay:-1.08s"/><rect class="wavebar" x="48" y="56.0" width="4" height="88" rx="2" fill="#235bce" style="animation-delay:-1.44s"/><rect class="wavebar" x="60" y="71.0" width="4" height="58" rx="2" fill="#235bce" style="animation-delay:-1.7999999999999998s"/><rect class="wavebar" x="72" y="85.0" width="4" height="30" rx="2" fill="#235bce" style="animation-delay:-2.16s"/><path d="M90 100H117M210 100H267" stroke="#c0d5f0" fill="none"/><path class="signal" pathLength="100" d="M90 100H117M210 100H267" stroke="#235bce" stroke-width="3" fill="none"/><rect x="118" y="29" width="92" height="142" rx="35" fill="#e0edff" stroke="#235bce" stroke-width="2"/><circle cx="164" cy="62" r="8" fill="none" stroke="#c0d5f0" stroke-width="2"/><circle class="beacon" cx="164" cy="103" r="15" fill="#355edb"/><circle cx="164" cy="103" r="5" fill="#17679b"/><circle cx="291" cy="100" r="24" fill="#e0edff" stroke="#c0d5f0"/><path d="M281 100L288 107L302 91" stroke="#17679b" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/><text x="164" y="216" fill="#48658a" font-family="'SFMono-Regular',Consolas,monospace" font-size="14" font-weight="400" text-anchor="middle">VOICE → INTENT → APPROVAL</text></g><text x="36" y="510" fill="#235bce" font-family="'SFMono-Regular',Consolas,monospace" font-size="19" font-weight="600" >EXPLORE ANTICIPY ↗</text>
+</svg>
