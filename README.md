@@ -2,28 +2,53 @@
   <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/profile/hero-dark-mobile.svg">
   <source media="(max-width: 600px)" srcset="assets/profile/hero-light-mobile.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile/hero-dark.svg">
-  <img src="assets/profile/hero-light.svg" alt="Tejas Kaushik — from an idea to something you can use. Web, mobile, and AI engineering." width="100%">
+  <img src="assets/profile/hero-light.svg" alt="Tejass Kaushik — software engineer. I build AI products across apps and devices." width="100%">
 </picture>
 
-# Tejas Kaushik
+# Hey, I'm Tejass Kaushik.
 
-I build web and mobile products, AI applications, and the systems that connect them.
+**Software engineer. Product builder. Curious about how things work.**
 
-**Founding Software Engineer at Anticipation Labs.** Studying Computer Science at Western University with Ivey Advanced Entry Opportunity (AEO), intending to pursue the Computer Science/Ivey HBA dual-degree pathway.
+I'm a **Founding Software Engineer at Anticipation Labs**, building [Anticipy](https://anticipy.ai/), and the **former CTO of Stellar Learning**. I study **Computer Science at Western University** and hold **Ivey Advanced Entry Opportunity (AEO)** status.
 
-[Portfolio ↗](https://tejass-kaushik.vercel.app/) · [LinkedIn ↗](https://www.linkedin.com/in/tejasskaushik/) · [Email ↗](mailto:tejs.kaushik@outlook.com)
+My work spans web and mobile applications, AI workflows, and the systems that connect them. I like taking a problem all the way through: understanding the person using it, building the software, and checking that the experience actually works.
 
-**Explore** &nbsp; [Now](#now) / [Projects](#projects) / [The lab](#the-lab) / [Toolkit](#toolkit) / [Journey](#journey) / [Activity](#activity)
+[**Portfolio ↗**](https://tejass-kaushik.vercel.app/) &nbsp; · &nbsp; [Resume ↗](https://tejass-kaushik.vercel.app/resume) &nbsp; · &nbsp; [LinkedIn ↗](https://www.linkedin.com/in/tejasskaushik/) &nbsp; · &nbsp; [Email ↗](mailto:tejas.kaushik@outlook.com)
+
+**Explore** &nbsp; [About](#about-me) / [Now](#now) / [Projects](#projects) / [The lab](#the-lab) / [Toolkit](#toolkit) / [Journey](#journey) / [Activity](#activity)
 
 ---
 
+## About me
+
+I'm interested in the places where software meets something beyond a screen: learning, scientific questions, everyday tasks, and connected devices. That has taken me from chemistry tools and spreadsheet analysis to education platforms and an AI wearable.
+
+- **What I build:** interfaces people can navigate, APIs and data workflows behind them, and AI features with clear permissions and useful outputs.
+- **How I work:** define the problem, make acceptance criteria concrete, iterate with Claude and Codex, review the result, and test the actual browser or device journey.
+- **What I care about:** thoughtful product decisions, understandable systems, and evidence that a feature does what it promises.
+- **Beyond engineering:** I co-authored global health research through Youreka Canada. I also love water, boats, and yachts—which explains [Open Water](https://tejass-kaushik.vercel.app/), my interactive portfolio.
+
 ## Now
 
-**Anticipation Labs · 2026–present**
+**Anticipation Labs · Founding Software Engineer · Aug 2026–present**
 
-Building at the intersection of AI and everyday life. [Anticipy](https://www.anticipy.ai/) is an AI pendant designed to turn spoken intentions into actions with the wearer's approval.
+[Anticipy](https://anticipy.ai/) is an AI wearable being built to turn spoken intentions into actions through connected software, with the person's approval. My work covers **connected-app reliability, private AI workflows, release verification, and hands-on phone and prototype wearable testing**.
 
-I built and shipped the **Anticipy Fellowship website and application experience**: candidate journeys across Software, Hardware, and Growth/Marketing, application flows, and deployment to Cloudflare Workers with automatic delivery from Git. I also contribute to recruiting infrastructure and early-stage operations.
+I set requirements and repair priorities, direct AI-assisted implementation and review, and test the experience on real devices. One example: I prioritized a connection failure and required browser-tested release evidence. The deployed navigation correction reached provider sign-in in those checks.
+
+<details>
+<summary><strong>A closer look at my contribution</strong> — apps, AI, devices, and delivery</summary>
+
+- **Connected apps:** consent and recovery flows, with acceptance checks that follow the browser through to the provider.
+- **Private AI:** a preparation prototype that turns a selected source into a brief, with explicit consent, spending, cancellation, and retention boundaries. Validated locally.
+- **Devices and releases:** hands-on phone observations and prototype hardware testing, alongside release coordination and review.
+- **Fellowship:** the responsive recruiting experience and application navigation. The Fellowship is coming soon.
+
+This builds on the team's existing product, native apps, workflow systems, and hardware designs. Claude and Codex contribute substantially to implementation and review under my direction. The [case study](https://tejass-kaushik.vercel.app/case-studies/anticipy) separates deployed repairs, local prototypes, and ongoing device validation.
+
+</details>
+
+[Read the engineering case study ↗](https://tejass-kaushik.vercel.app/case-studies/anticipy) · [Explore Anticipy ↗](https://anticipy.ai/)
 
 ## Projects
 
@@ -96,13 +121,21 @@ An AI-assisted student matchmaking platform. I developed profile and questionnai
 
 ## The lab
 
+### Open Water · a portfolio you can explore
+
+An interactive ocean, a yacht, a scuba descent, and a straightforward reading experience underneath it all. It brings together my engineering work and my love of the water. The projects and contact information remain available without JavaScript or compatible graphics.
+
+I directed the experience and acceptance criteria; Codex and Claude contributed implementation, artwork, and review. Built with **React, TypeScript, and Three.js**, with reduced-motion support and an alternative field guide.
+
+[**Explore Open Water ↗**](https://tejass-kaushik.vercel.app/) · [Read the source ↗](https://github.com/tejask-dev/personal-portfolio)
+
 ### RelayPass · consent that travels with the task
 
 What happens to your permissions when one AI agent delegates to another?
 
 [**Explore the architecture ↗**](https://github.com/tejask-dev/Egoist-Ideathon---RelayPass/blob/main/docs/ARCHITECTURE.md) · [Explore the source ↗](https://github.com/tejask-dev/Egoist-Ideathon---RelayPass)
 
-A prototype exploring signed delegation passes, narrower permissions at each handoff, causal receipts, and cascading revocation. **Agents, merchants, and purchases are simulated.**
+A prototype built with Claude, exploring signed delegation passes, narrower permissions at each handoff, causal receipts, and cascading revocation. **Agents, merchants, and purchases are simulated.**
 
 <details>
 <summary><strong>Follow a delegation</strong> — permission → handoff → receipt → revocation</summary>
@@ -120,21 +153,35 @@ Built with Next.js, TypeScript, jose, and Zod. The demo explores the consent mod
 
 ## Toolkit
 
-| Layer | Tools I use | Where to see them |
-| :--- | :--- | :--- |
-| Interfaces | React, Next.js, TypeScript, Flutter | Web products, Stellar web and mobile |
-| APIs & data | FastAPI, Flask, PostgreSQL, Pandas | ACS Can Drive, ModelMind, PromMatch |
-| AI & domain tooling | LLM APIs, embeddings, RDKit, PubChem | ModelMind, PromMatch, MoleculeAI |
-| Infrastructure | Cloudflare Workers, Firebase, Redis | Anticipy Fellowship, Stellar |
+| Area | Tools I work with |
+| :--- | :--- |
+| Languages | Python, TypeScript, JavaScript, SQL |
+| Web & mobile | React, Next.js, Flutter, Three.js |
+| APIs & data | FastAPI, Flask, PostgreSQL, Pandas, pgvector |
+| AI & scientific tooling | LLM APIs, embeddings, RDKit, PubChem |
+| Delivery | Git, GitHub Actions, Cloudflare Workers, Firebase, Redis |
+
+I choose the stack around the problem and the people using the result.
 
 ## Journey
 
 <details>
 <summary><strong>Stellar Learning</strong> — former CTO, previously Deputy CTO · Aug 2025–Jul 2026</summary>
 
-[Stellar](https://stellarlearning.app/) is a free learning and exam-preparation platform reporting **40,000+ learners**. I contributed to platform architecture and product development across web, mobile, and AI-enabled learning, including practice systems and the Nova AI tutoring experience.
+[Stellar](https://stellarlearning.app/) is a volunteer-built learning and exam-preparation platform. I developed the **IB Diploma question-generation and practice harnesses**, and improved the **AP question and lesson harnesses**.
 
-My web work involved React, Next.js, Firebase, and Redis. On mobile, I worked with Flutter, Riverpod, GoRouter, Dio, and streaming interfaces. I also coordinated technical work within a distributed volunteer organization.
+The platform reports **40,000+ learners**; that is an organization-wide figure. [Read about my part in the platform ↗](https://tejass-kaushik.vercel.app/case-studies/stellar-learning)
+
+</details>
+
+<details>
+<summary><strong>Youreka Canada</strong> — published global health research · 2025</summary>
+
+I co-authored a study of adolescent fertility and pediatric HIV treatment coverage across **34 Sub-Saharan African countries**, alongside Liyona Wang, Shikai Jin, and Elijah Murtagh.
+
+The study was published in the **2025 Youreka Canada Journal** and recognized there as the **national first-place study**. The research and recognition belong to our team. The study examines an association in country-level data, rather than establishing a causal relationship.
+
+[Read the research story ↗](https://tejass-kaushik.vercel.app/case-studies/global-health-research) · [Final journal ↗](https://drive.google.com/file/d/1lTrTsLfvYSEkUlYoGWTSYcoekdeiJqu4/view)
 
 </details>
 
@@ -145,7 +192,7 @@ My web work involved React, Next.js, Firebase, and Redis. On mobile, I worked wi
 
 Worked on Alti Assistant and Alti Agent, with safety and guardrail work on Alti Guard.
 
-**DocuBridge · Software Engineering / AI Development Intern · Jul–Aug 2025**
+**DocuBridge · Software Engineering Intern · Jul–Aug 2025**
 
 Developed ModelMind, the spreadsheet analysis prototype featured above.
 
@@ -177,6 +224,6 @@ I founded a web and software venture through Ontario's Summer Company program, d
 
 For engineering opportunities, technical collaborations, or a conversation about something you're building:
 
-[**Email me ↗**](mailto:tejs.kaushik@outlook.com) &nbsp; [LinkedIn ↗](https://www.linkedin.com/in/tejasskaushik/) &nbsp; [Portfolio ↗](https://tejass-kaushik.vercel.app/)
+[**Email me ↗**](mailto:tejas.kaushik@outlook.com) &nbsp; [LinkedIn ↗](https://www.linkedin.com/in/tejasskaushik/) &nbsp; [Portfolio ↗](https://tejass-kaushik.vercel.app/) &nbsp; [Resume ↗](https://tejass-kaushik.vercel.app/resume)
 
-<sub>[Back to the top ↑](#tejas-kaushik) · [About this profile](docs/PROFILE-DESIGN.md)</sub>
+<sub>[Back to the top ↑](#hey-im-tejass-kaushik) · [About this profile](docs/PROFILE-DESIGN.md)</sub>

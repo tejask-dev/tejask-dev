@@ -1,12 +1,24 @@
 # Profile design notes
 
-Research checked on September 21, 2026. This is a curated shortlist of useful approaches, not an objective ranking of GitHub profiles.
+Original profile research checked on September 21, 2026. Identity, published portfolio content, and the blue visual revision checked on October 7, 2026. The research shortlist is a curated set of useful approaches, not an objective ranking of GitHub profiles.
 
 ## Direction
 
-A personal engineering fieldbook: charcoal, warm paper, mint accents, generous spacing, and specific work. The theme-aware animated hero establishes the visual identity; the text explains what Tejas builds and links to evidence. Project stories stay readable at a glance, with expandable engineering notes for readers who want more.
+A personal engineering fieldbook in blue: midnight navy, cobalt, ice blue, and pale blue surfaces. The original nautical-chart hero connects the engineering profile with Open Water and Tejass's interest in boats and water. Its moving signal is decorative, remains legible when static, and stops for reduced-motion preferences. Light/dark and narrow-screen variants share the same visual language.
+
+The introduction answers who Tejass is, what he builds, and how he works before the project list. Current engineering, prior leadership, research, personal interests, and contact paths sit alongside the code. Project stories and longer career notes remain expandable so readers can choose their level of detail.
 
 The profile should feel personal and explorable. Claims, roles, metrics, awards, and links must remain verifiable. Authored work and team contributions should be described accurately.
+
+## October 2026 content sources
+
+- [Published portfolio](https://tejass-kaushik.vercel.app/) and [resume](https://tejass-kaushik.vercel.app/resume): current display name **Tejass Kaushik**, public email **tejas.kaushik@outlook.com**, Founding Software Engineer at Anticipation Labs, former Stellar CTO, Western Computer Science and Ivey AEO, working approach, and the personal water/boat interests. AEO is a status, not an HBA degree.
+- [Anticipy case study](https://tejass-kaushik.vercel.app/case-studies/anticipy): connected-app reliability, private AI workflow prototypes, personal phone/hardware observations, and AI-assisted implementation under Tejass's direction. The Fellowship is coming soon; the old claim that the complete experience had shipped was removed. Existing team foundations and bounded validation remain explicit.
+- [Stellar case study](https://tejass-kaushik.vercel.app/case-studies/stellar-learning): IB Diploma question-generation and practice harnesses, plus AP question and lesson harness improvements. The 40,000+ learners figure belongs to the organization.
+- [Research case study](https://tejass-kaushik.vercel.app/case-studies/global-health-research), linked to the final 2025 Youreka Canada Journal: coauthors, the 34-country study, and national first-place recognition of the team study. No clinical impact or causal result is claimed.
+- Open Water and RelayPass retain the AI-assistance credit stated on the published portfolio. Existing project descriptions and earlier career history are retained, with prototype/simulation and campaign-versus-personal distinctions intact.
+
+These sources support public biography, not a fresh end-to-end test of every featured product. The October revision keeps the existing dated activity snapshot intact and changes only its rendering palette; future scheduled refreshes use the same blue colors.
 
 ## Research shortlist
 

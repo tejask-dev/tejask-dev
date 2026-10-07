@@ -41,7 +41,7 @@ def render():
     for theme in ('light','dark'):
         doc = f'''<!doctype html><html lang="en" data-color-mode="{theme}" data-light-theme="light" data-dark-theme="dark">
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Tejas Kaushik · profile preview · {theme}</title>{links}
+<title>Tejass Kaushik · profile preview · {theme}</title>{links}
 <style>html{{color-scheme:{theme}}}body{{margin:0;background:var(--bgColor-default);color:var(--fgColor-default)}}main{{box-sizing:border-box;max-width:928px;margin:24px auto;padding:32px;border:1px solid var(--borderColor-default);border-radius:6px}}@media(max-width:600px){{main{{margin:0;padding:20px 16px;border:0}}}}</style></head>
 <body><main class="markdown-body">{rendered}</main></body></html>'''
         # Match GitHub's selected theme even if the local OS uses another one.

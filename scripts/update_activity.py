@@ -18,8 +18,8 @@ CALENDAR_URL = f"https://github.com/users/{PROFILE}/contributions"
 REPOSITORIES_URL = f"https://api.github.com/users/{PROFILE}/repos?type=owner&per_page=100&sort=full_name"
 ROOT = Path(__file__).resolve().parents[1]
 THEMES = {
-    "dark": {"bg": "#101719", "fg": "#f5f2eb", "muted": "#94a6a2", "line": "#2b3838", "levels": ["#202c2c", "#30574c", "#498c73", "#70bb9b", "#a8e5cd"]},
-    "light": {"bg": "#f5f2eb", "fg": "#101719", "muted": "#526761", "line": "#d3ded7", "levels": ["#e3e7e0", "#bbdacb", "#85b9a3", "#4b9479", "#146953"]},
+    "dark": {"bg": "#08182e", "fg": "#edf5ff", "muted": "#a1b9db", "line": "#24466d", "levels": ["#142c49", "#234f82", "#326fbd", "#5098ea", "#8cc8ff"]},
+    "light": {"bg": "#eff6ff", "fg": "#102c52", "muted": "#48658a", "line": "#c0d5f0", "levels": ["#e0eafa", "#b6d4ff", "#79aff4", "#427fd5", "#235baf"]},
 }
 
 

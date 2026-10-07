@@ -5,8 +5,8 @@ from pathlib import Path
 
 OUT = Path(__file__).resolve().parents[1] / "assets" / "profile"
 PALETTES = {
-    "dark": dict(bg="#101719", fg="#f5f2eb", muted="#a7b6b0", line="#30423f", mint="#a8e5cd", orange="#f6b08a", blue="#a5bff5", panel="#182426"),
-    "light": dict(bg="#f5f2eb", fg="#172827", muted="#526660", line="#cad5cc", mint="#146953", orange="#a14c24", blue="#355da8", panel="#e9eee7"),
+    "dark": dict(bg="#08182e", fg="#edf5ff", muted="#a1b9db", line="#24466d", accent="#78b7ff", ice="#acdfff", blue="#6097ff", panel="#102b4d"),
+    "light": dict(bg="#eff6ff", fg="#102c52", muted="#48658a", line="#c0d5f0", accent="#235bce", ice="#17679b", blue="#355edb", panel="#e0edff"),
 }
 
 
@@ -20,41 +20,48 @@ def document(w, h, p, title, desc, contents):
 <title id="title">{escape(title)}</title><desc id="desc">{escape(desc)}</desc>
 <style>
 @keyframes travel {{ to {{ stroke-dashoffset: -800; }} }}
-.signal {{ stroke-dasharray: 14 786; animation: travel 12s linear infinite; }}
+.signal {{ stroke-dasharray: 20 780; animation: travel 18s linear infinite; }}
 @media (prefers-reduced-motion: reduce) {{ .signal {{ animation: none; stroke-dasharray: none; opacity: .35; }} }}
 </style>
 <rect width="{w}" height="{h}" rx="18" fill="{p['bg']}"/>
+<rect x=".5" y=".5" width="{w-1}" height="{h-1}" rx="18" fill="none" stroke="{p['line']}"/>
 {''.join(contents)}
 </svg>\n'''
 
 
 def hero(p, mobile=False):
-    w, h = (640, 610) if mobile else (1200, 430)
-    c = [text(40 if mobile else 52, 48, "TK / ENGINEERING FIELDNOTES", 17, p['muted'], mono=True)]
-    if not mobile:
-        c.append(text(1148, 48, "IDEAS → WORKING SOFTWARE", 16, p['muted'], mono=True, extra='text-anchor="end"'))
-    x = 38 if mobile else 48
-    c += [text(x, 154, "Tejas", 100, p['fg'], 650, extra='letter-spacing="-5"'),
-          text(x, 252, "Kaushik.", 100, p['fg'], 650, extra='letter-spacing="-5"'),
-          text(x+4, 302, "From an idea to something you can use.", 23 if mobile else 25, p['muted'])]
-    ox, oy, scale = (100, 338, .78) if mobile else (725, 89, 1)
-    c.append(f'<g transform="translate({ox} {oy}) scale({scale})">')
-    # An original routed-system illustration: one input, three product surfaces.
-    paths = ["M20 100H80Q100 100 100 80V25Q100 10 120 10H190", "M20 100H190", "M20 100H80Q100 100 100 120V175Q100 190 120 190H190"]
-    for path in paths:
-        c += [f'<path d="{path}" fill="none" stroke="{p["line"]}" stroke-width="2"/>',
-              f'<path class="signal" d="{path}" fill="none" stroke="{p["mint"]}" stroke-width="3"/>']
-    c += [f'<circle cx="20" cy="100" r="10" fill="{p["mint"]}"/>',
-          f'<circle cx="20" cy="100" r="22" fill="none" stroke="{p["line"]}"/>']
-    for y, title, label, color in [(10,"01", "INTERFACES", p['mint']), (100,"02", "INTELLIGENCE", p['blue']), (190,"03", "SYSTEMS", p['orange'])]:
-        c += [f'<rect x="190" y="{y-31}" width="220" height="62" rx="9" fill="{p["panel"]}" stroke="{p["line"]}"/>',
-              text(207,y+6,title,17,color,mono=True),text(248,y+6,label,17,p['fg'],mono=True)]
+    w, h = (640, 540) if mobile else (1200, 440)
+    x = 38 if mobile else 52
+    c = [text(x, 48, "TK / SOFTWARE ENGINEER", 19 if mobile else 17, p['muted'], mono=True)]
+    # A nautical chart motif ties the profile to Open Water without external assets.
+    cx, cy = (526, 325) if mobile else (949, 207)
+    c.append(f'<g opacity="{.32 if mobile else 1}">')
+    for radius in (52, 79, 107, 135):
+        c.append(f'<circle cx="{cx}" cy="{cy}" r="{radius}" fill="none" stroke="{p["line"]}"/>')
+    for offset in (-112, -56, 0, 56, 112):
+        c.append(f'<path d="M{cx-164} {cy+offset}H{min(w-20,cx+164)}" stroke="{p["line"]}" stroke-dasharray="2 8"/>')
+    route = f'M{cx-190} {cy+74}C{cx-92} {cy+74} {cx-98} {cy-100} {cx-8} {cy-87}S{cx+113} {cy-27} {cx+145} {cy-90}'
+    c += [f'<path d="{route}" fill="none" stroke="{p["blue"]}" stroke-width="2"/>',
+          f'<path class="signal" d="{route}" fill="none" stroke="{p["ice"]}" stroke-width="4"/>']
+    for dx, dy in ((-129, 40), (-8, -87), (123, -59)):
+        c.append(f'<circle cx="{cx+dx}" cy="{cy+dy}" r="5" fill="{p["accent"]}"/>')
     c.append('</g>')
-    baseline = h-58
-    c += [f'<path d="M40 {baseline-20}H{w-40}" stroke="{p["line"]}"/>',
-          text(42,baseline+18,"WEB / MOBILE / AI",17,p['mint'],mono=True),
-          text(w-42,baseline+18,"@tejask-dev",17,p['muted'],mono=True,extra='text-anchor="end"')]
-    return document(w,h,p,"Tejas Kaushik — engineering fieldnotes", "From an idea to something you can use. Web, mobile, and AI engineering. A moving signal connects interfaces, intelligence, and systems.",c)
+    if not mobile:
+        c += [text(803, 67, "A LITTLE CURIOSITY.", 15, p['muted'], mono=True),
+              text(803, 359, "A LOT TO BUILD.", 15, p['muted'], mono=True),
+              text(cx, cy+10, "TK", 50, p['accent'], 600, extra='text-anchor="middle" letter-spacing="-3"')]
+    # Text gets its own quiet surface on the narrow layout.
+    if mobile:
+        c.append(f'<rect x="20" y="77" width="490" height="301" rx="12" fill="{p["bg"]}"/>')
+    c += [text(x-4, 155, "Tejass", 100, p['fg'], 650, extra='letter-spacing="-5"'),
+          text(x-4, 253, "Kaushik.", 100, p['fg'], 650, extra='letter-spacing="-5"'),
+          text(x, 308, "I build AI products", 28, p['accent'], 500),
+          text(x, 344, "across apps and devices.", 28, p['muted'])]
+    baseline = h-64
+    c += [f'<path d="M{x} {baseline}H{w-x}" stroke="{p["line"]}"/>',
+          text(x,baseline+37,"WEB / MOBILE / AI",18 if mobile else 16,p['accent'],mono=True),
+          text(w-x,baseline+37,"@tejask-dev",18 if mobile else 16,p['muted'],mono=True,extra='text-anchor="end"')]
+    return document(w,h,p,"Tejass Kaushik — software engineer", "I build AI products across apps and devices. An original blue nautical chart connects curiosity with engineering, inspired by Open Water.",c)
 
 
 def icon(kind, p, accent):
@@ -88,8 +95,8 @@ def icon(kind, p, accent):
 
 def atlas(p,mobile=False):
     w,h=(640,670) if mobile else (1200,335)
-    c=[text(32,40,"SELECTED BUILDS / OPEN THE FIELDNOTES BELOW",16 if mobile else 18,p['muted'],mono=True)]
-    entries=[("acs","01","ACS Can Drive","Community logistics",p['mint']), ("molecule","02","MoleculeAI","Chemistry, made visual",p['blue']), ("modelmind","03","ModelMind","Questions → analysis",p['orange']), ("prommatch","04","PromMatch","Preferences → matches",p['mint'])]
+    c=[text(32,40,"SELECTED BUILDS / EXPLORE THE STORIES BELOW",16 if mobile else 18,p['muted'],mono=True)]
+    entries=[("acs","01","ACS Can Drive","Community logistics",p['accent']), ("molecule","02","MoleculeAI","Chemistry, made visual",p['blue']), ("modelmind","03","ModelMind","Questions → analysis",p['ice']), ("prommatch","04","PromMatch","Preferences → matches",p['accent'])]
     for i,(kind,num,name,label,accent) in enumerate(entries):
         x,y=(32+(i%2)*308,90+(i//2)*290) if mobile else (32+i*296,80)
         c += [text(x,y+4,num,17,p['muted'],mono=True),f'<g transform="translate({x+68} {y})">{icon(kind,p,accent)}</g>',
