@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "profile": "tejask-dev",
-  "fetched_at": "2026-10-10T15:53:27Z",
-  "through": "2026-10-10",
+  "fetched_at": "2026-10-11T16:20:28Z",
+  "through": "2026-10-11",
   "sources": {
     "contributions": {
       "url": "https://github.com/users/tejask-dev/contributions",
@@ -16,41 +16,13 @@
     }
   },
   "repositories": {
-    "public_total": 12,
+    "public_total": 11,
     "public_forks": 0,
-    "public_originals": 12,
+    "public_originals": 11,
     "archived_public_originals": 0,
-    "active_public_originals": 12
+    "active_public_originals": 11
   },
   "days": [
-    {
-      "date": "2025-10-05",
-      "level": 4
-    },
-    {
-      "date": "2025-10-06",
-      "level": 3
-    },
-    {
-      "date": "2025-10-07",
-      "level": 4
-    },
-    {
-      "date": "2025-10-08",
-      "level": 2
-    },
-    {
-      "date": "2025-10-09",
-      "level": 2
-    },
-    {
-      "date": "2025-10-10",
-      "level": 0
-    },
-    {
-      "date": "2025-10-11",
-      "level": 1
-    },
     {
       "date": "2025-10-12",
       "level": 0
@@ -1505,6 +1477,10 @@
     },
     {
       "date": "2026-10-10",
+      "level": 1
+    },
+    {
+      "date": "2026-10-11",
       "level": 1
     }
   ]
